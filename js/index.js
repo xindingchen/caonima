@@ -10,9 +10,9 @@ var value="blue";
 	
 	
     function onDeviceReady() {
-		window.localStorage.setItem( key, value );
-        var key1="pen";
-        var value =window.localStorage.getItem(key);
+		window.localStorage.setItem(key,value);
+        var key1 = "pen";
+        var value1 =window.localStorage.getItem(key);
         alert(value);
     }
 
